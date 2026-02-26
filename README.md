@@ -5,6 +5,7 @@ This repository contains a full-stack **Todo List** project built with modern to
 ## 🛠️ Technology Stack
 
 ### Backend
+
 - **Node.js** with **Express** server
 - **PostgreSQL** (or SQLite depending on configuration) via `pg` module
 - Architecture organized into controllers, models, routes, and middleware
@@ -12,6 +13,7 @@ This repository contains a full-stack **Todo List** project built with modern to
 - Input validation and reusable utilities
 
 ### Frontend
+
 - **React** powered by **Vite** for fast development
 - Components structured into pages & reusable pieces
 - Context API for authentication and theme management
@@ -34,7 +36,10 @@ frontend/        # React application with Vite setup
 
 ## 📦 Setup Instructions
 
+> 🔐 **Security note:** Do **not** push `.env` files or any secrets to GitHub. Use the `backend/.env.example` (and similar) as a template and keep real credentials private. The project’s `.gitignore` already excludes `.env` files, logs, and other sensitive data.
+
 ### Prerequisites
+
 - Node.js (14+)
 - npm or yarn
 - PostgreSQL (if using production DB)
