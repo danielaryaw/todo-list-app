@@ -1,0 +1,7 @@
+{
+  "extends": ["development"],
+  "hints": {
+    "apple-touch-icons": "off",
+    "compat-api/css": ["default", {}]
+  }
+}
